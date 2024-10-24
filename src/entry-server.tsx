@@ -10,6 +10,7 @@ export default createHandler(() => (
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
           {assets}
+          <title>Sabayle</title>
         </head>
         <body>
           <div id="app">{children}</div>
